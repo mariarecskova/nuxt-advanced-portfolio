@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+#container {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.font-exo {
+  font-family: "Exo 2", sans-serif;
+}
+
+.font-space-mono {
+  font-family: "Space Mono", monospace;
+}
+
+#maria {
+  transform: translateY(30px);
+}
+
+#paragraph {
+  transform: translateY(30px);
+}
+
+#projectButton {
+  transform: translateY(30px);
+}
