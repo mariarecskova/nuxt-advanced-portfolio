@@ -46,9 +46,6 @@ import gsap from "gsap";
 import "../assets/css/style.css";
 export default {
   mounted() {
-    const dat = require("dat.gui");
-    const gui = new dat.GUI();
-
     const world = {
       plane: {
         width: 400,
@@ -57,11 +54,6 @@ export default {
         heightSegments: 50,
       },
     };
-
-    gui.add(world.plane, "width", 1, 500).onChange(generatePlane);
-    gui.add(world.plane, "height", 1, 500).onChange(generatePlane);
-    gui.add(world.plane, "widthSegments", 1, 100).onChange(generatePlane);
-    gui.add(world.plane, "heightSegments", 1, 100).onChange(generatePlane);
 
     function generatePlane() {
       planeMesh.geometry.dispose();
@@ -128,11 +120,10 @@ export default {
       world.plane.widthSegments,
       world.plane.heightSegments
     );
-    nt;
 
     const planeMaterial = new MeshPhongMaterial({
       side: DoubleSide,
-      flatShading: FlatShading,
+      flatShading: true,
       vertexColors: true,
     });
 
