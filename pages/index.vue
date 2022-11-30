@@ -16,7 +16,7 @@
       </p>
       <a
         id="projectButton"
-        class="border px-8 py-4 text-xl font-space-mono uppercase mt-8 hover:bg-white hover:text-slate-800 hover:border-0 inline-block opacity-0"
+        class="border px-8 py-4 text-xl font-space-mono uppercase mt-8 hover:bg-white hover:text-slate-800 hover:border-0 inline-block opacity-0 cursor-pointer"
       >
         MY PROJECTS
       </a>
@@ -309,5 +309,3 @@ export default {
   },
 };
 </script>
-
-<style></style>
