@@ -16,7 +16,6 @@
       </p>
       <a
         id="projectButton"
-        href="https://chriscourses.com/"
         class="border px-8 py-4 text-xl font-space-mono uppercase mt-8 hover:bg-white hover:text-slate-800 hover:border-0 inline-block opacity-0"
       >
         MY PROJECTS
@@ -133,7 +132,7 @@ export default {
 
     const planeMaterial = new MeshPhongMaterial({
       side: DoubleSide,
-      flatShading: true,
+      flatShading: FlatShading,
       vertexColors: true,
     });
 
@@ -254,6 +253,13 @@ export default {
       stars.rotation.x += 0.0005;
     }
 
+    animate();
+
+    addEventListener("mousemove", (event) => {
+      mouse.x = (event.clientX / innerWidth) * 2 - 1;
+      mouse.y = -(event.clientY / innerHeight) * 2 + 1;
+    });
+
     gsap.to("#maria", {
       opacity: 1,
       duration: 1.5,
@@ -309,12 +315,8 @@ export default {
       camera.updateProjectionMatrix();
       renderer.setSize(innerWidth, innerHeight);
     });
-    animate();
-
-    addEventListener("mousemove", (event) => {
-      mouse.x = (event.clientX / innerWidth) * 2 - 1;
-      mouse.y = -(event.clientY / innerHeight) * 2 + 1;
-    });
   },
 };
 </script>
+
+<style></style>
