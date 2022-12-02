@@ -13,9 +13,12 @@
       responsible for theming (light and dark mode) using React hooks and
       Context API
     </p>
-    <div class="mt-8">
+    <div class="mt-8 flex flex-col space-y-8">
       <a class="font-exo text-3xl" href="https://github.com/chudaol/workademy"
         >GitHub Link</a
+      >
+      <a class="font-exo text-3xl" href=https://www.theworkademy.com/
+        >Company website</a
       >
     </div>
   </div>
