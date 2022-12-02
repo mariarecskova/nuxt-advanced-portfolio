@@ -10,6 +10,5 @@
       sidebar) and then I was responsible for theming (light and dark mode)
       using React hooks and Context API
     </p>
-    <div>animation of the project here</div>
   </div>
 </template>
