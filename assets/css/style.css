@@ -5,9 +5,10 @@
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
+  background-color: black;
 }
 
-#container {
+#main-container {
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;

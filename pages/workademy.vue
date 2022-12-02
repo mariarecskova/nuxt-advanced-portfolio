@@ -1,7 +1,8 @@
 <template>
-  <div class="bg-black h-screen px-6 py-12 text-white">
-    <h2 class="font-exo text-5xl" ref="title">Workademy</h2>
-    <p class="font-exo mt-4">
+  <div class="flex-col space-y-4 bg-black h-screen px-6 py-12 text-white">
+    <h2 class="font-exo text-4xl" ref="title">Workademy</h2>
+    <h4 class="font-exo text-3xl">23.08.2021-15.10.2022</h4>
+    <p class="font-exo text-xl mt-8">
       The internship was organized as part of the Wild Code School training
       program. We developed the admin part of the Smart Course Builder
       application, using React, Redux and styled components. I was coding

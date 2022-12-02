@@ -2,7 +2,7 @@
   <div>
     <canvas ref="canvas"></canvas>
     <div
-      id="container"
+      id="main-container"
       class="absolute text-white text-center w-full max-w-2xl px-6"
     >
       <h1
