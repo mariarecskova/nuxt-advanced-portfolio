@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import VideoPlayer from "../components/VideoPlayer.vue";
+import VideoPlayer from "../../components/VideoPlayer.vue";
 import accentroVideo from "~/assets/videos/accentroVideo.mp4";
 
 export default {

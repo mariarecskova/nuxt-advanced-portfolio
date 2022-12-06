@@ -45,25 +45,26 @@ export default {
             url: accentro,
           },
           title: "ACCENTRO",
-          url: "/accentro",
+          url: "./projects/accentro",
         },
         {
           image: {
             url: proprate,
           },
           title: "PROPRATE",
-          url: "/proprate",
+          url: "./projects/proprate",
         },
         {
           image: {
             url: workademy,
           },
           title: "WORKADEMY",
-          url: "/workademy",
+          url: "./projects/workademy",
         },
       ],
     };
   },
+
   mounted() {
     gsap.to(this.$refs.title, {
       opacity: 1,
@@ -79,6 +80,7 @@ export default {
       ease: "expo",
       delay: 0.3,
     });
+    console.log(this.$router);
   },
 };
 </script>

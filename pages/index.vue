@@ -277,9 +277,7 @@ export default {
     document.querySelector("#projectButton");
     addEventListener("click", (e) => {
       e.preventDefault();
-      gsap.to("#container", {
-        opacity: 0,
-      });
+
       gsap.to(camera.position, {
         z: 25,
         ease: "power3.inOut",
@@ -297,6 +295,7 @@ export default {
         delay: 2,
         onComplete: () => {
           this.$router.push("/work");
+          console.log("finished!");
         },
       });
     });
