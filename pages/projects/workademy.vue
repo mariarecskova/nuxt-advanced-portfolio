@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-8 py-12 text-white max-w-sm md:max-w-lg ml:max-w-5xl"
+    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm md:max-w-lg ml:max-w-5xl"
   >
     <h2 class="font-exo text-5xl" ref="title">Workademy</h2>
     <h4 class="font-exo text-3xl">10.03.2020-04.05.2020</h4>

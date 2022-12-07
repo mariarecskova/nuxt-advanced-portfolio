@@ -1,14 +1,7 @@
 <template>
   <div>
     <div ref="projects" v-for="project in projects">
-      <video
-        v-lazy-load
-        loop
-        autoplay
-        playsinline
-        muted
-        style="object-fit: cover"
-      >
+      <video loop autoplay playsinline muted style="object-fit: cover">
         <source :src="project.video.url" type="video/mp4" />
       </video>
     </div>
