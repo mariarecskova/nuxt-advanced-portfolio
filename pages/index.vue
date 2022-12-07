@@ -44,6 +44,7 @@ import {
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import gsap from "gsap";
 import "../assets/css/style.css";
+import { kill } from "process";
 export default {
   mounted() {
     const world = {
@@ -277,7 +278,6 @@ export default {
     document.querySelector("#projectButton");
     addEventListener("click", (e) => {
       e.preventDefault();
-
       gsap.to(camera.position, {
         z: 25,
         ease: "power3.inOut",
@@ -294,11 +294,12 @@ export default {
         duration: 1,
         delay: 2,
         onComplete: () => {
-          this.$router.push("/work");
-          console.log("finished!");
+          window.location = "/work";
+          console.log("test");
         },
       });
     });
+
     //to maintain the perfect aspect ratio
     addEventListener("resize", () => {
       camera.aspect = innerWidth / innerHeight;
