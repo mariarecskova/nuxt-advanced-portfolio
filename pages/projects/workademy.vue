@@ -18,9 +18,9 @@
         >Project on GitHub</a
       >
     </div>
-    <div class="flex h-32 py-8 md:py-4 ml:max-w-2xl">
+    <div class="flex h-24 md:h-32 py-8 md:py-4 ml:max-w-2xl">
       <a href="https://www.theworkademy.com/" target="_blank">
-        <VideoPlayer v-bind:projects="projects"></VideoPlayer>
+        <VideoPlayer v-bind:projects="projects" />
       </a>
     </div>
   </div>

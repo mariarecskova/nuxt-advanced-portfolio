@@ -11,7 +11,7 @@
       <div
         ref="projects"
         v-for="project in projects"
-        class="w-max-w-xs md:w-full opacity-0 py-8 md:py-4"
+        class="md:w-full opacity-0 py-8 md:py-4"
         style="transform: translateX(30px)"
       >
         <NuxtLink :to="`${project.url}`">
@@ -80,7 +80,6 @@ export default {
       ease: "expo",
       delay: 0.3,
     });
-    console.log(this.$router);
   },
 };
 </script>
