@@ -247,7 +247,7 @@ export default {
 
     animate();
 
-    addEventListener("mousemove", (event) => {
+    addEventListener("mousemove" || "touchmove", (event) => {
       mouse.x = (event.clientX / innerWidth) * 2 - 1;
       mouse.y = -(event.clientY / innerHeight) * 2 + 1;
     });
