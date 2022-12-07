@@ -15,11 +15,36 @@
     </p>
     <div class="mt-8 flex flex-col space-y-8">
       <a class="font-exo text-3xl" href="https://github.com/chudaol/workademy"
-        >GitHub Link</a
+        >Project on GitHub</a
       >
-      <a class="font-exo text-3xl" href=https://www.theworkademy.com/
-        >Company website</a
-      >
+    </div>
+    <div class="flex h-32 py-8 md:py-4 ml:max-w-2xl">
+      <a href="https://www.theworkademy.com/">
+        <VideoPlayer v-bind:projects="projects"></VideoPlayer>
+      </a>
     </div>
   </div>
 </template>
+
+<script>
+import VideoPlayer from "../../components/VideoPlayer.vue";
+import workademyVideo from "~/assets/videos/workademy.mp4";
+
+export default {
+  data() {
+    return {
+      projects: [
+        {
+          video: {
+            url: workademyVideo,
+          },
+          title: "WORKADEMY",
+        },
+      ],
+    };
+  },
+  components: {
+    VideoPlayer,
+  },
+};
+</script>
