@@ -15,8 +15,8 @@
       user account creation and password check. I implemented end-to-end test
       with Cypress.
     </p>
-    <div class="flex h-24 py-8 md:py-4 ml:max-w-md">
-      <a href="https://proprate.de/">
+    <div class="flex h-24 py-8 md:py-4 ml:max-w-xl">
+      <a href="https://proprate.de/" target="_blank">
         <VideoPlayer v-bind:projects="projects"></VideoPlayer>
       </a>
     </div>

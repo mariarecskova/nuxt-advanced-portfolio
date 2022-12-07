@@ -19,7 +19,7 @@
       >
     </div>
     <div class="flex h-32 py-8 md:py-4 ml:max-w-2xl">
-      <a href="https://www.theworkademy.com/">
+      <a href="https://www.theworkademy.com/" target="_blank">
         <VideoPlayer v-bind:projects="projects"></VideoPlayer>
       </a>
     </div>
