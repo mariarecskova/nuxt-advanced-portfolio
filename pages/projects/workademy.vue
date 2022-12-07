@@ -28,7 +28,7 @@
 
 <script>
 import VideoPlayer from "../../components/VideoPlayer.vue";
-import workademyVideo from "~/assets/videos/workademy.mp4";
+import workademyVideo from "~/assets/videos/workademy_ok.mp4";
 
 export default {
   data() {
