@@ -1,13 +1,29 @@
 <template>
   <div class="bg-black h-full md:h-screen px-6 py-12">
+    <div class="mt-4">
+      <h2 class="text-white font-exo text-5xl">ABOUT ME</h2>
+      <p
+        class="text-white text-xl md:text-2xl font-space-mono font-semibold mt-8 md:mt-12"
+      >
+        I am a frontend developer based in Freiburg, Germany. <br />I started my
+        career in tech 2,5 years ago, after finishing an intensive coding
+        bootcamp by Wild Code School. I work with Typescript, React and Next.js.
+        Currently, I am learning Vue and Three.js. <br />I feel empowered
+        whenever I see a new component appearing on my screen. Coding gives me
+        an endless source of creativity. I enjoy problem solving more than
+        anything. Errors and bugs will always come, and it is a challenge to
+        learn from them.
+      </p>
+    </div>
+
     <h2
-      class="text-white font-exo text-5xl opacity-0"
+      class="text-white font-exo text-5xl opacity-0 mt-8 md:mt-12"
       ref="title"
       style="transform: translateY(30px)"
     >
       MY PROJECTS
     </h2>
-    <div class="mt-4 md:flex md:space-x-4 md:mt-8">
+    <div class="md:flex md:space-x-4 mt-8 md:mt-12">
       <div
         ref="projects"
         v-for="project in projects"
