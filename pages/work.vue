@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black h-full md:h-screen px-6 py-12">
     <div class="mt-4">
-      <h2 class="text-white font-exo text-5xl">ABOUT ME</h2>
+      <h2 class="text-white font-exo text-3xl md:text-5xl">ABOUT ME</h2>
       <p
         class="text-white text-xl md:text-2xl font-space-mono font-semibold mt-8 md:mt-12"
       >
@@ -17,7 +17,7 @@
     </div>
 
     <h2
-      class="text-white font-exo text-5xl opacity-0 mt-8 md:mt-12"
+      class="text-white font-exo text-3xl md:text-5xl opacity-0 mt-8 md:mt-12"
       ref="title"
       style="transform: translateY(30px)"
     >
