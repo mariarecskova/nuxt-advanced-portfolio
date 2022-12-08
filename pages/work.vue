@@ -7,7 +7,7 @@
       >
         I am a frontend developer based in Freiburg, Germany. <br />I started my
         career in tech 2,5 years ago, after finishing an intensive coding
-        bootcamp by Wild Code School. I work with Typescript, React and Next.js.
+        bootcamp at Wild Code School. I work with Typescript, React and Next.js.
         Currently, I am learning Vue and Three.js. <br />I feel empowered
         whenever I see a new component appearing on my screen. Coding gives me
         an endless source of creativity. I enjoy problem solving more than
@@ -23,7 +23,7 @@
     >
       MY PROJECTS
     </h2>
-    <div class="md:flex md:space-x-4 mt-8 md:mt-12">
+    <div class="md:grid md:grid-cols-2 md:gap-x-4 md:gap-y-12 mt-8 md:mt-12">
       <div
         ref="projects"
         v-for="project in projects"
@@ -48,6 +48,7 @@
 
 <script>
 import accentro from "~/assets/images/accentro_mobile.png";
+import anikomasszazs from "~/assets/images/anikomasszazs.png";
 import proprate from "~/assets/images/proprate_mobile.png";
 import workademy from "~/assets/images/workademy_mobile.png";
 import gsap from "gsap";
@@ -76,6 +77,13 @@ export default {
           },
           title: "WORKADEMY",
           url: "./projects/workademy",
+        },
+        {
+          image: {
+            url: anikomasszazs,
+          },
+          title: "ANIKOMASSZAZS",
+          url: "./projects/anikomasszazs",
         },
       ],
     };

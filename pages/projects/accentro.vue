@@ -2,10 +2,14 @@
   <div
     class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm md:max-w-lg ml:max-w-5xl"
   >
-    <h2 v-for="project in projects" class="font-exo text-5xl" ref="title">
+    <h2
+      v-for="project in projects"
+      class="font-exo text-4xl md:text-5xl"
+      ref="title"
+    >
       {{ project.title }}
     </h2>
-    <h4 class="font-exo text-3xl">01.07.2021-30.10.2022</h4>
+    <h4 class="font-exo text-2xl md:text-3xl">01.07.2021-30.10.2022</h4>
     <p class="font-exo text-xl mt-8">
       This is the website of a Berlin-based real estate company. It was built
       with React and next.js frameworks, combined with Typescript.

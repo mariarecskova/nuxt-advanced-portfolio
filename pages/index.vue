@@ -44,7 +44,6 @@ import {
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import gsap from "gsap";
 import "../assets/css/style.css";
-import { kill } from "process";
 export default {
   mounted() {
     const world = {
