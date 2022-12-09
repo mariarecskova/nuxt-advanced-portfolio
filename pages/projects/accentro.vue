@@ -22,7 +22,7 @@
       I implemented several end-to-end test with Cypress, and I wrote nearly the
       complete documentation of the project in the internal GitHub Wiki.
     </p>
-    <div class="flex h-24 py-8 md:py-4 ml:max-w-2xl">
+    <div class="flex h-24 py-8 md:py-4 ml:max-w-md">
       <a href="https://accentro.de/" target="_blank">
         <VideoPlayer v-bind:projects="projects"></VideoPlayer>
       </a>
