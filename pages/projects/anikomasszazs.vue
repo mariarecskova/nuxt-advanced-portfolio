@@ -5,7 +5,7 @@
     <div>
       <h2 class="font-exo text-4xl md:text-5xl" ref="title">ANIKOMASSZAZS</h2>
     </div>
-    <h4 class="font-exo text-2xl md:text-3xl">01.07.2021-30.10.2022</h4>
+    <h4 class="font-exo text-2xl md:text-3xl">01.02.2021-15.02.2021</h4>
     <p class="font-exo text-xl mt-8">
       This is static website of a Hungarian massage therapist living in my home
       village in Slovakia. It was a great practice for me on how to provide a
