@@ -43,6 +43,7 @@
         </NuxtLink>
       </div>
     </div>
+    <Slider />
   </div>
 </template>
 
@@ -52,6 +53,7 @@ import anikomasszazs from "~/assets/images/anikomasszazs.png";
 import proprate from "~/assets/images/proprate_mobile.png";
 import workademy from "~/assets/images/workademy_mobile.png";
 import gsap from "gsap";
+import Slider from "../components/Slider.vue";
 
 export default {
   data() {
@@ -87,6 +89,9 @@ export default {
         },
       ],
     };
+  },
+  components: {
+    Slider,
   },
 
   mounted() {
