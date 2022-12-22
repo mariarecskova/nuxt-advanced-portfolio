@@ -294,7 +294,6 @@ export default {
         delay: 2,
         onComplete: () => {
           window.location = "/work";
-          console.log("test");
         },
       });
     });

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm md:max-w-lg ml:max-w-7xl"
+    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm sm:max-w-xl md:max-w-5xl ml:max-w-7xl"
   >
     <h2
       v-for="project in projects"

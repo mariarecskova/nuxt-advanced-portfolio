@@ -3,7 +3,7 @@
     <div class="mt-4">
       <h2 class="text-white font-exo text-3xl md:text-5xl">ABOUT ME</h2>
       <p
-        class="text-white text-xl md:text-2xl font-space-mono font-semibold mt-8 md:mt-12"
+        class="text-white text-lg md:text-2xl font-space-mono font-semibold mt-8 md:mt-12"
       >
         I am a frontend developer based in Freiburg, Germany. <br />I started my
         career in tech 2,5 years ago, after finishing an intensive coding

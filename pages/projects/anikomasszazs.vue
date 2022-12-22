@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm md:max-w-lg ml:max-w-7xl"
+    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm sm:max-w-xl md:max-w-5xl ml:max-w-7xl"
   >
     <div>
       <h2 class="font-exo text-4xl md:text-5xl" ref="title">ANIKOMASSZAZS</h2>
