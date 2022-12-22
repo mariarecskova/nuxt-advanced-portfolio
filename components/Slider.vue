@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-8 md:mt-16 text-white font-exo text-xl md:text-5xl w-full pb-8 md:pb-12 sm:max-w-lg md:max-w-3xl ml:max-w-5xl"
+    class="mt-8 md:mt-16 text-white font-exo text-xl md:text-5xl w-full pb-4 md:pb-12 sm:max-w-lg md:max-w-3xl ml:max-w-5xl"
   >
     <h2>TESTIMONIALS</h2>
     <div class="mt-8 md:mt-12">
