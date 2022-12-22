@@ -13,7 +13,7 @@
             is capable of facing new challenges as well as to apply newly
             acquired skills to solve problems.
           </p>
-          <p class="text-md md:text-xl mt-4 text-right">
+          <p class="text-md md:text-lg mt-8">
             Kevin Graf, Senior Developer and Project Manager, SODEFA
           </p>
         </div>
@@ -27,21 +27,21 @@
             eine positive Grundeinstellung und eine ausgeprägte
             Lernbereitschaft.
           </p>
-          <p class="text-md md:text-xl mt-4 text-right">
+          <p class="text-md md:text-lg mt-8">
             Ruwen Poljak, Senior Developer, Metrinomics
           </p>
         </div>
         <div class="keen-slider__slide number-slide3">
           <p class="text-lg md:text-2xl font-space-mono font-semibold">
             I worked with Maria on several projects in Wild Code School and saw
-            her great progress along the way. From the very first project, she
+            her great progress along the way! From the very first project, she
             was proactive in the team meetings and was giving great ideas and
             always made sure that her tasks were completed. She was also very
             active outside projects, by teaching yoga classes every day before
             the lessons she made a positive impact on the mental health of our
             group.
           </p>
-          <p class="text-md md:text-xl mt-4 text-right">
+          <p class="text-md md:text-lg mt-8">
             Olena Shutovska, React Developer, Workademy Teammate
           </p>
         </div>
@@ -53,7 +53,7 @@
             and skills. I valued working with her, because she was always
             willing to give and accept good advice.
           </p>
-          <p class="text-md md:text-xl mt-4 text-right">
+          <p class="text-md md:text-lg mt-8">
             Pingcheng Yin, Sofware Engineer, Workademy Teammate
           </p>
         </div>
