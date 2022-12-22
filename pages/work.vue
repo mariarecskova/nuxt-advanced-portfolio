@@ -17,7 +17,7 @@
     </div>
 
     <h2
-      class="text-white font-exo text-3xl md:text-5xl opacity-0 mt-8 md:mt-12"
+      class="text-white font-exo text-xl md:text-5xl opacity-0 mt-8 md:mt-12"
       ref="title"
       style="transform: translateY(30px)"
     >

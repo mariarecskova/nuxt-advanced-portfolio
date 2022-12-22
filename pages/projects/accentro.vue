@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm md:max-w-lg ml:max-w-5xl"
+    class="flex-col space-y-4 md:space-y-8 h-screen px-6 md:px-12 py-12 text-white max-w-sm md:max-w-lg ml:max-w-7xl"
   >
     <h2
       v-for="project in projects"
@@ -10,7 +10,7 @@
       {{ project.title }}
     </h2>
     <h4 class="font-exo text-2xl md:text-3xl">01.07.2021-30.10.2022</h4>
-    <p class="font-exo text-xl mt-8">
+    <p class="font-exo text-lg md:text-2xl mt-8">
       This is the website of a Berlin-based real estate company. It was built
       with React and Next.js frameworks, combined with Typescript.
       <br />The users can search and filter for apartments, register, upload
@@ -27,9 +27,9 @@
       I also created several end-to-end test with Cypress, and I wrote nearly
       the complete documentation of the project in the internal GitHub Wiki.
     </p>
-    <div class="flex h-24 py-8 md:py-4 ml:max-w-md">
+    <div class="flex h-24 py-8 md:py-4">
       <a href="https://accentro.de/" target="_blank">
-        <VideoPlayer v-bind:projects="projects"></VideoPlayer>
+        <VideoPlayer v-bind:projects="projects"> </VideoPlayer>
       </a>
     </div>
   </div>
@@ -38,6 +38,7 @@
 <script>
 import VideoPlayer from "../../components/VideoPlayer.vue";
 import accentroVideo from "~/assets/videos/accentroVideo.mp4";
+import accentroDesktop from "~/assets/videos/accentro_desktop.mp4";
 
 export default {
   data() {
@@ -46,6 +47,7 @@ export default {
         {
           video: {
             url: accentroVideo,
+            url2: accentroDesktop,
           },
           title: "ACCENTRO",
         },

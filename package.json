@@ -22,7 +22,8 @@
     "three-orbitcontrols": "^2.110.3",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.14"
+    "vue-template-compiler": "^2.7.14",
+    "vue-window-size": "^1.0.8"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.1.3",

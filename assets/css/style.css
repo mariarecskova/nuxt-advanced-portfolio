@@ -7,16 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: black;
 }
-@media only screen and (min-width: 640px) {
-  #aniko-mobile {
-    display: none;
-  }
-}
-@media only screen and (max-width: 640px) {
-  #aniko-desktop {
-    display: none;
-  }
-}
 
 #main-container {
   top: 50%;
