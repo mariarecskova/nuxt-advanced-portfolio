@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black h-full md:h-screen px-6 py-12">
+  <div class="bg-black h-full md:h-screen px-6 md:px-14 py-12">
     <div class="mt-4 opacity-0" ref="me">
       <h2 class="text-white font-exo text-3xl md:text-5xl">ABOUT ME</h2>
       <div class="md:flex md:items-center md:space-x-24">
@@ -24,7 +24,7 @@
         </div>
       </div>
       <p
-        class="text-white text-lg md:text-2xl font-space-mono font-semibold mt-8 md:mt-12"
+        class="text-white text-lg md:text-2xl font-space-mono leading-normal md:leading-relaxed font-semibold mt-8 md:mt-12"
       >
         I am a frontend developer based in Freiburg, Germany. <br />I started my
         career in tech 2,5 years ago, after finishing an intensive coding
