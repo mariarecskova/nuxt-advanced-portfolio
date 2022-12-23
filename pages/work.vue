@@ -2,6 +2,28 @@
   <div class="bg-black h-full md:h-screen px-6 py-12">
     <div class="mt-4">
       <h2 class="text-white font-exo text-3xl md:text-5xl">ABOUT ME</h2>
+      <div class="md:flex md:items-center md:space-x-24">
+        <img
+          class="object-cover h-60 md:h-80 mt-8 md:mt-12"
+          src="../assets/images/maria.jpeg"
+          alt="maria"
+        />
+
+        <div class="flex-col space-y-4 md:space-y-8">
+          <div
+            ref="contacts"
+            v-for="contact in contacts"
+            class="flex items-center space-x-4 mt-8 md:mt-12 font-space-mono text-white font-semibold text-lg md:text-2xl"
+          >
+            <img :src="contact.image.url" class="h-4 md:h-6" alt="mail icon" />
+            <span>
+              <a :href="contact.url" target="_blank">
+                <p class="cursor-pointer">{{ contact.text }}</p>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
       <p
         class="text-white text-lg md:text-2xl font-space-mono font-semibold mt-8 md:mt-12"
       >
@@ -52,6 +74,9 @@ import accentro from "~/assets/images/accentro_mobile.png";
 import anikomasszazs from "~/assets/images/anikomasszazs.png";
 import proprate from "~/assets/images/proprate_mobile.png";
 import workademy from "~/assets/images/workademy_mobile.png";
+import mail from "~/assets/images/mail-24.png";
+import linkedIn from "~/assets/images/linkedin-24.png";
+import xing from "~/assets/images/xing-24.png";
 import gsap from "gsap";
 import Slider from "../components/Slider.vue";
 
@@ -86,6 +111,29 @@ export default {
           },
           title: "ANIKOMASSZAZS",
           url: "./projects/anikomasszazs",
+        },
+      ],
+      contacts: [
+        {
+          image: {
+            url: mail,
+          },
+          text: "maria.recska@gmail.com",
+          url: "mailto:maria.recska@gmail.com",
+        },
+        {
+          image: {
+            url: linkedIn,
+          },
+          text: "LinkedIn",
+          url: "https://www.linkedin.com/in/mariarecskova/",
+        },
+        {
+          image: {
+            url: xing,
+          },
+          text: "Xing",
+          url: "https://www.xing.com/profile/Maria_Recskova",
         },
       ],
     };
