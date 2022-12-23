@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black h-full md:h-screen px-6 py-12">
-    <div class="mt-4">
+    <div class="mt-4 opacity-0" ref="me">
       <h2 class="text-white font-exo text-3xl md:text-5xl">ABOUT ME</h2>
       <div class="md:flex md:items-center md:space-x-24">
         <img
@@ -11,7 +11,6 @@
 
         <div class="flex-col space-y-4 md:space-y-8">
           <div
-            ref="contacts"
             v-for="contact in contacts"
             class="flex items-center space-x-4 mt-8 md:mt-12 font-space-mono text-white font-semibold text-lg md:text-2xl"
           >
@@ -65,7 +64,9 @@
         </NuxtLink>
       </div>
     </div>
-    <Slider />
+    <div ref="slider" class="opacity-0">
+      <Slider />
+    </div>
   </div>
 </template>
 
@@ -150,6 +151,22 @@ export default {
       ease: "expo",
     });
     gsap.to(this.$refs.projects, {
+      opacity: 1,
+      duration: 1.5,
+      stagger: 0.1,
+      x: 0,
+      ease: "expo",
+      delay: 0.3,
+    });
+    gsap.to(this.$refs.me, {
+      opacity: 1,
+      duration: 1.5,
+      stagger: 0.1,
+      x: 0,
+      ease: "expo",
+      delay: 0.3,
+    });
+    gsap.to(this.$refs.slider, {
       opacity: 1,
       duration: 1.5,
       stagger: 0.1,
