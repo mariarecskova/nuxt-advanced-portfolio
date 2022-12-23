@@ -161,18 +161,14 @@ export default {
     gsap.to(this.$refs.me, {
       opacity: 1,
       duration: 1.5,
-      stagger: 0.1,
-      x: 0,
+      y: 0,
       ease: "expo",
-      delay: 0.3,
     });
     gsap.to(this.$refs.slider, {
       opacity: 1,
       duration: 1.5,
-      stagger: 0.1,
-      x: 0,
+      y: 0,
       ease: "expo",
-      delay: 0.3,
     });
   },
 };
