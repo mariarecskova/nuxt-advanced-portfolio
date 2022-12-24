@@ -24,8 +24,8 @@
       I optimized the website's SEO by implementing JSON-LD - structured data
       markup that helps Google Search Engine to understand the content of a
       page.<br />
-      I also created several end-to-end test with Cypress, and I wrote nearly
-      the complete documentation of the project in the internal GitHub Wiki.
+      I also created several end-to-end test with Cypress, and I wrote the
+      majority of the project documentation in the internal GitHub Wiki.
     </p>
     <div class="flex h-24 py-8 md:py-4">
       <a href="https://accentro.de/" target="_blank">
