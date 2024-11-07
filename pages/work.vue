@@ -32,7 +32,7 @@
         on great projects in agile teams, firstly for smaller companies, and
         currently for a large corporation. <br />
         My favorite tech stack is React, Typescript and Next.js, using Tailwind
-        for styling. This portfolio website was built with Vue.js, Vite and
+        for styling. This portfolio website was built with Vue.js, Nuxt and
         Three.js, and it is deployed to Vercel. <br />I feel empowered
         whenever I see a new component appearing on my screen. Coding gives me
         an endless source of creativity. I enjoy problem solving more than
