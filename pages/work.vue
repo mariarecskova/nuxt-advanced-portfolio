@@ -33,8 +33,8 @@
         currently for a large corporation. <br />
         My favorite tech stack is React, Typescript and Next.js, using Tailwind
         for styling. This portfolio website was built with Vue.js, Vite and
-        Three.js, and I deployed it to Vercel. <br />I feel empowered whenever I
-        see a new component appearing on my screen. Coding gives me an endless
+        Three.js, and it is deployed to Vercel. <br />I feel empowered whenever
+        I see a new component appearing on my screen. Coding gives me an endless
         source of creativity. I enjoy problem solving more than anything. Errors
         and bugs will always come, and it is a challenge to learn from them.
       </p>
