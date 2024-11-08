@@ -26,31 +26,17 @@
       <p
         class="text-white text-lg md:text-2xl font-space-mono leading-normal md:leading-relaxed font-semibold mt-8 md:mt-12"
       >
-<<<<<<< HEAD
-        I am a frontend developer based near Freiburg, Germany. <br />I started
-        my career in tech 4,5 years ago, after finishing an intensive coding
-=======
         I am a frontend developer based in Freiburg, Germany. <br />I started my
         career in tech 4,5 years ago, after finishing an intensive coding
->>>>>>> 99242ee5b48271a327f81243b4ca9dc91e7737f7
         bootcamp at Wild Code School in Berlin. Since then I have been working
         on great projects in agile teams, firstly for smaller companies, and
         currently for a large corporation. <br />
         My favorite tech stack is React, Typescript and Next.js, using Tailwind
-<<<<<<< HEAD
-        for styling. This portfolio website was built with Vue.js, Vite and
+        for styling. This portfolio website was built with Vue.js, Nuxt and
         Three.js, and it is deployed to Vercel. <br />I feel empowered whenever
         I see a new component appearing on my screen. Coding gives me an endless
         source of creativity. I enjoy problem solving more than anything. Errors
         and bugs will always come, and it is a challenge to learn from them.
-=======
-        for styling. This portfolio website was built with Vue.js, Nuxt and
-        Three.js, and it is deployed to Vercel. <br />I feel empowered
-        whenever I see a new component appearing on my screen. Coding gives me
-        an endless source of creativity. I enjoy problem solving more than
-        anything. Errors and bugs will always come, and it is a challenge to
-        learn from them.
->>>>>>> 99242ee5b48271a327f81243b4ca9dc91e7737f7
       </p>
     </div>
 
