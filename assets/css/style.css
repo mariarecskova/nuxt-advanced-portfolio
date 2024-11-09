@@ -5,7 +5,8 @@
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  background-color: black;
+  background-color: rgb(41, 41, 41);
+  color: rgb(247, 241, 233);
 }
 
 #main-container {
@@ -14,7 +15,7 @@ body {
   left: 50%;
 }
 
-.font-exo {
+.font-space-mono {
   font-family: "Exo 2", sans-serif;
 }
 

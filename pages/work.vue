@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-black h-full md:h-screen px-6 md:px-14 py-12">
+  <div class="h-full md:h-screen px-6 md:px-14 py-12">
     <div class="mt-4 opacity-0" ref="me">
-      <h2 class="text-white font-exo text-3xl md:text-5xl">ABOUT ME</h2>
+      <h2 class="font-space-mono text-xl sm:text-2xl md:text-3xl">ABOUT ME</h2>
       <div class="md:flex md:items-center md:space-x-24">
         <img
           class="object-cover h-60 md:h-80 mt-8 md:mt-12"
@@ -12,7 +12,7 @@
         <div class="flex-col space-y-4 md:space-y-8 justify-center">
           <div
             v-for="contact in contacts"
-            class="flex items-center space-x-4 mt-8 md:mt-12 font-space-mono text-white font-semibold text-lg md:text-2xl"
+            class="flex items-center space-x-4 mt-8 md:mt-12 font-space-mono font-semibold text-lg md:text-xl"
           >
             <img :src="contact.image.url" class="h-4 md:h-6" alt="mail icon" />
             <span>
@@ -24,7 +24,7 @@
         </div>
       </div>
       <p
-        class="text-white text-lg md:text-2xl font-space-mono leading-normal md:leading-relaxed font-semibold mt-8 md:mt-12"
+        class="text-lg md:text-xl font-space-mono leading-normal md:leading-relaxed font-semibold mt-8 md:mt-12"
       >
         I am a frontend developer based in Freiburg, Germany. <br />I started my
         career in tech 4,5 years ago, after finishing an intensive coding
@@ -41,7 +41,7 @@
     </div>
 
     <h2
-      class="text-white font-exo text-xl md:text-5xl opacity-0 mt-8 md:mt-12"
+      class="font-space-mono text-xl sm:text-2xl md:text-3xl opacity-0 mt-8 md:mt-12"
       ref="title"
       style="transform: translateY(30px)"
     >
@@ -53,17 +53,17 @@
       <div
         ref="projects"
         v-for="project in projects"
-        class="w-full sm:w-11/12 md:w-full py-8 sm:py-4"
+        class="w-full px-4 py-8 md:py-4"
         style="transform: translateX(30px)"
       >
         <NuxtLink :to="`${project.url}`">
           <img
             :src="project.image.url"
             alt="project images"
-            style="height: 50vh"
+            style="height: 45vh"
             class="object-cover"
           />
-          <p class="text-white text-2xl font-space-mono font-semibold">
+          <p class="text-2xl font-space-mono font-semibold">
             {{ project.title }}
           </p>
         </NuxtLink>

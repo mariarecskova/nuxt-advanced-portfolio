@@ -1,12 +1,14 @@
 <template>
   <div
-    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12 text-white"
+    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12"
   >
     <div>
-      <h2 class="font-exo text-4xl md:text-5xl" ref="title">ANIKOMASSZAZS</h2>
+      <h2 class="font-space-mono text-xl md:text-2xl" ref="title">
+        ANIKOMASSZAZS
+      </h2>
     </div>
-    <h4 class="font-exo text-2xl md:text-3xl">01.02.2021-15.02.2021</h4>
-    <p class="font-exo sm:text-xl md:text-2xl mt-8">
+    <h4 class="font-space-mono text-xl md:text-2xl">01.02.2021-15.02.2021</h4>
+    <p class="font-space-mono text-lg sm:text-xl mt-8">
       This is static website of a Hungarian massage therapist living in my home
       village in Slovakia. It was a great practice for me on how to provide a
       complete service.
@@ -26,13 +28,20 @@
             v-if="windowWidth <= 640"
             :src="anikomasszazsMobile"
             alt="anikomasszazs-mobile"
+            loading="lazy"
           />
           <img
             v-else-if="windowWidth <= 880"
             :src="anikomasszazsTablet"
             alt="anikomasszazs-tablet"
+            loading="lazy"
           />
-          <img v-else :src="anikomasszazsDesktop" alt="anikomasszazs-desktop" />
+          <img
+            v-else
+            :src="anikomasszazsDesktop"
+            alt="anikomasszazs-desktop"
+            loading="lazy"
+          />
         </div>
       </a>
     </div>

@@ -1,16 +1,16 @@
 <template>
   <div
-    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12 text-white"
+    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12"
   >
     <h2
       v-for="project in projects"
-      class="font-exo text-4xl md:text-5xl"
+      class="font-space-mono text-xl md:text-2xl"
       ref="title"
     >
       {{ project.title }}
     </h2>
-    <h4 class="font-exo text-2xl md:text-3xl">01.07.2021-30.10.2022</h4>
-    <p class="font-exo text-lg sm:text-xl md:text-2xl mt-8">
+    <h4 class="font-space-mono text-xl md:text-2xl">01.07.2021-30.10.2022</h4>
+    <p class="font-space-mono text-lg sm:text-xl mt-8">
       This is the website of a Berlin-based real estate company. It was built
       with React and Next.js frameworks, combined with Typescript.
       <br />The users can search and filter for apartments, register, upload

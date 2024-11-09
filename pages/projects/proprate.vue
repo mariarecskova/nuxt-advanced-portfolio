@@ -1,16 +1,16 @@
 <template>
   <div
-    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12 text-white"
+    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12"
   >
     <h2
       v-for="project in projects"
-      class="font-exo text-4xl md:text-5xl"
+      class="font-space-mono text-xl md:text-2xl"
       ref="title"
     >
       {{ project.title }}
     </h2>
-    <h4 class="font-exo text-2xl md:text-3xl">30.08.2021-11.10.2021</h4>
-    <p class="font-exo text-lg sm:text-xl md:text-2xl mt-8">
+    <h4 class="font-space-mono text-xl md:text-2xl">30.08.2021-11.10.2021</h4>
+    <p class="font-space-mono text-lg sm:text-xl mt-8">
       I worked on this project for a short time, when the workload was less by
       ACCENTRO. PropRate is a free tool to analyze real estate.<br />The
       webapplication was built with React and Next.js frameworks, using also

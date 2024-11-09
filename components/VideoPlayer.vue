@@ -1,7 +1,14 @@
 <template>
   <div>
     <div ref="projects" v-for="project in projects">
-      <video loop autoplay playsinline muted style="object-fit: cover">
+      <video
+        loop
+        autoplay
+        playsinline
+        muted
+        loading="lazy"
+        style="object-fit: cover"
+      >
         <source
           v-if="windowWidth <= 880"
           :src="project.video.url"

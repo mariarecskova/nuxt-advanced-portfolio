@@ -1,17 +1,14 @@
 <template>
   <div>
     <canvas ref="canvas"></canvas>
-    <div
-      id="main-container"
-      class="absolute text-white text-center w-full max-w-2xl px-6"
-    >
+    <div id="main-container" class="absolute text-center w-full max-w-2xl px-6">
       <h1
         id="maria"
         class="font-space-mono text-xl uppercase tracking-wide opacity-0"
       >
         Maria Recskova
       </h1>
-      <p id="paragraph" class="font-exo text-4xl mt-4 opacity-0">
+      <p id="paragraph" class="font-space-mono text-4xl mt-4 opacity-0">
         FRONTEND DEVELOPER WITH ENDLESS CURIOSITY FOR THE UNKNOWN
       </p>
       <a

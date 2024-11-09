@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12 text-white"
+    class="flex flex-col items-start space-y-8 md:space-y-12 h-screen px-12 md:px-16 py-12"
   >
-    <h2 class="font-exo text-4xl md:text-5xl" ref="title">Workademy</h2>
-    <h4 class="font-exo text-2xl md:text-3xl">10.03.2020-04.05.2020</h4>
-    <p class="font-exo text-lg sm:text-xl md:text-2xl mt-8">
+    <h2 class="font-space-mono text-xl md:text-2xl" ref="title">Workademy</h2>
+    <h4 class="font-space-mono text-xl md:text-2xl">10.03.2020-04.05.2020</h4>
+    <p class="font-space-mono text-lg sm:text-xl mt-8">
       The internship was organized as part of the Wild Code School training
       program. <br />
       We developed the admin part of the Smart Course Builder application, using
@@ -14,7 +14,9 @@
       Context API
     </p>
     <div class="mt-8 flex flex-col space-y-8">
-      <a class="font-exo text-3xl" href="https://github.com/chudaol/workademy"
+      <a
+        class="font-space-mono text-3xl"
+        href="https://github.com/chudaol/workademy"
         >Project on GitHub</a
       >
     </div>

@@ -1,14 +1,12 @@
 <template>
-  <div
-    class="mt-8 md:mt-16 text-white font-exo text-xl md:text-5xl w-full pb-4 md:pb-12 sm:max-w-lg md:max-w-3xl ml:max-w-5xl"
-  >
+  <div class="mt-8 md:mt-16 font-space-mono text-xl sm:text-2xl md:text-3xl">
     <h2>TESTIMONIALS</h2>
     <div class="mt-8 md:mt-12">
       <img :src="quote" />
       <div ref="slider" class="keen-slider">
         <div class="keen-slider__slide number-slide1">
           <p
-            class="text-lg md:text-2xl font-space-mono font-semibold leading-normal md:leading-relaxed"
+            class="text-lg md:text-xl font-space-mono font-semibold leading-normal md:leading-relaxed"
           >
             Working with Maria was always a pleasure. The team recognized her as
             an interested, open-minded, honest, kind, and respectful person that
@@ -21,7 +19,7 @@
         </div>
         <div class="keen-slider__slide number-slide2">
           <p
-            class="text-lg md:text-2xl font-space-mono font-semibold leading-normal md:leading-relaxed"
+            class="text-lg md:text-xl font-space-mono font-semibold leading-normal md:leading-relaxed"
           >
             Maria ist eine sehr gute Teamplayerin und hat sich im Laufe der
             Projekte schnell neues Wissen angeeignet. Auftretende Probleme hat
@@ -37,7 +35,7 @@
         </div>
         <div class="keen-slider__slide number-slide3">
           <p
-            class="text-lg md:text-2xl font-space-mono font-semibold leading-normal md:leading-relaxed"
+            class="text-lg md:text-xl font-space-mono font-semibold leading-normal md:leading-relaxed"
           >
             I worked with Maria on several projects in Wild Code School and saw
             her great progress along the way. From the very first project, she
@@ -53,7 +51,7 @@
         </div>
         <div class="keen-slider__slide number-slide4">
           <p
-            class="text-lg md:text-2xl font-space-mono font-semibold leading-normal md:leading-relaxed"
+            class="text-lg md:text-xl font-space-mono font-semibold leading-normal md:leading-relaxed"
           >
             I worked with Maria on two projects. She was a very good
             communicator and planed our projects effectively. She eagerly
