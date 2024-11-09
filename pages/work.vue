@@ -9,7 +9,7 @@
           alt="maria"
         />
 
-        <div class="flex-col space-y-4 md:space-y-8">
+        <div class="flex-col space-y-4 md:space-y-8 justify-center">
           <div
             v-for="contact in contacts"
             class="flex items-center space-x-4 mt-8 md:mt-12 font-space-mono text-white font-semibold text-lg md:text-2xl"
@@ -47,11 +47,13 @@
     >
       MY PROJECTS
     </h2>
-    <div class="md:grid md:grid-cols-2 md:gap-x-4 md:gap-y-12 mt-8 md:mt-12">
+    <div
+      class="flex flex-col sm:grid sm:grid-cols-2 sm:gap-x3 md:gap-x-4 md:gap-y-12 mt-8 md:mt-12 ml:grid-cols-4 ml:gap-x-5"
+    >
       <div
         ref="projects"
         v-for="project in projects"
-        class="md:w-full opacity-0 py-8 md:py-4"
+        class="w-full sm:w-11/12 md:w-full py-8 sm:py-4"
         style="transform: translateX(30px)"
       >
         <NuxtLink :to="`${project.url}`">
@@ -80,7 +82,6 @@ import proprate from "~/assets/images/proprate_mobile.png";
 import workademy from "~/assets/images/workademy_mobile.png";
 import mail from "~/assets/images/mail-24.png";
 import linkedIn from "~/assets/images/linkedin-24.png";
-import xing from "~/assets/images/xing-24.png";
 import gsap from "gsap";
 import Slider from "../components/Slider.vue";
 
@@ -131,13 +132,6 @@ export default {
           },
           text: "LinkedIn",
           url: "https://www.linkedin.com/in/mariarecskova/",
-        },
-        {
-          image: {
-            url: xing,
-          },
-          text: "Xing",
-          url: "https://www.xing.com/profile/Maria_Recskova",
         },
       ],
     };
