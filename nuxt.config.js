@@ -56,4 +56,8 @@ export default {
       },
     },
   },
+  generate: {
+    subFolders: false,
+  },
+  ssr: false,
 };

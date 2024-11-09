@@ -3,7 +3,7 @@
     <div ref="projects" v-for="project in projects">
       <video loop autoplay playsinline muted style="object-fit: cover">
         <source
-          v-if="windowWidth <= 640"
+          v-if="windowWidth <= 880"
           :src="project.video.url"
           type="video/mp4"
         />

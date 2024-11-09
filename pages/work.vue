@@ -59,7 +59,7 @@
         <NuxtLink :to="`${project.url}`">
           <img
             :src="project.image.url"
-            alt="accentro"
+            alt="project images"
             style="height: 50vh"
             class="object-cover"
           />
